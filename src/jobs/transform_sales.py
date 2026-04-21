@@ -7,6 +7,7 @@ from pyspark.sql.functions import col
 os.environ["PYSPARK_PYTHON"] = sys.executable
 os.environ["PYSPARK_DRIVER_PYTHON"] = sys.executable
 
+
 def main():
 
     spark = (
