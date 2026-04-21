@@ -1,0 +1,6 @@
+pyspark
+flake8
+black
+isort
+bandit
+pytest

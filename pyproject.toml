@@ -1,0 +1,19 @@
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+exclude = '''
+/(
+    venv
+  | __pycache__
+  | .git
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 88
+src_paths = ["src"]
+
+[tool.bandit]
+exclude_dirs = ["venv", "tests"]
+skips = ["B101"]
