@@ -1,7 +1,6 @@
 import os
 import sys
 
-import pandas
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col
 
