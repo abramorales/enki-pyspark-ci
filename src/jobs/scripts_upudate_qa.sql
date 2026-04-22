@@ -16,7 +16,7 @@ WHERE v.id = c.id;
 SELECT monto * 1.16 AS monto_con_iva
 FROM ventas;
 
-SELECT ic.d
+SELECT c.d
 FROM ventas AS v
 INNER JOIN clientes AS c ON v.id = c.id;
 
